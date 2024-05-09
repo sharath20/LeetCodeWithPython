@@ -37,4 +37,6 @@ class Solution:
 
         return result
     
-    self.trap([0,1,0,2,1,0,1,3,2,1,2,1])
+object = Solution();
+s = object.trap([0,1,0,1,3,4,1,2,0])
+print(s)
